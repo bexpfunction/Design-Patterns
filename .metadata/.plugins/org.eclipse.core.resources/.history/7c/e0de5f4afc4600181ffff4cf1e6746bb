@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package character;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class Queen extends Character {
+
+	/**
+	 * 
+	 */
+	public Queen() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/* (non-Javadoc)
+	 * @see character.Character#Fight()
+	 */
+	@Override
+	public void Fight() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

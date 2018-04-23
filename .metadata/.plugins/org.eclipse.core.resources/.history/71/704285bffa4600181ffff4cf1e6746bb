@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package character;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public abstract class Character {
+
+	/**
+	 * Character constructor
+	 */
+	public Character() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package behaviour;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public abstract class Weapon implements WeaponBehaviour {
+	
+	/**
+	 * 
+	 */
+	public Weapon() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/* (non-Javadoc)
+	 * @see behaviour.WeaponBehaviour#useWeapon()
+	 */
+	@Override
+	public void useWeapon() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

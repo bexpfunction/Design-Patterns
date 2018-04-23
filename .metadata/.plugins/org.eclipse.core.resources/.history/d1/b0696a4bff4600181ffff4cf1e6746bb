@@ -1,0 +1,42 @@
+/**
+ * 
+ */
+package main;
+
+import java.util.List;
+
+import character.Character;
+import character.King;
+import character.Queen;
+
+import java.util.ArrayList;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class Main {
+
+	private Character king;
+	private Character queen;
+	private List<Character> knights = new ArrayList<Character>();
+	private List<Character> trolls = new ArrayList<Character>();
+	/**
+	 * App construct
+	 */
+	public Main() {
+		//Create characters
+		king = new King("Robert", 100.0f, 500.0f);
+		queen = new Queen("Jaenille", 100.0f, 300.0f);
+	}
+
+	/**
+	 * App init point
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Welcome to \"Medieval Fights\"\nThere will be blood!");
+
+	}
+
+}

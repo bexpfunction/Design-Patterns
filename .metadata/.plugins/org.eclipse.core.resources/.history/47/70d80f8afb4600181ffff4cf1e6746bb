@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package behaviour;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class BowAndArrowBehaviour implements WeaponBehaviour {
+
+	/* (non-Javadoc)
+	 * @see behaviour.WeaponBehaviour#useWeapon()
+	 */
+	@Override
+	public void useWeapon() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

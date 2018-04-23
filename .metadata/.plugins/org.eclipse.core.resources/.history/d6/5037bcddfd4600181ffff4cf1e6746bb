@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package character;
+
+import behaviour.WeaponBehaviour;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public abstract class Character {
+
+	WeaponBehaviour weaponBehaviour;
+	
+	/**
+	 * Character constructor
+	 */
+	public Character() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	/*
+	 * Each character will fight with their own style
+	 */
+	public abstract void Fight();
+	
+	/*
+	 * Each character will be able to change weapons during runtime
+	 */
+	public void SetWeaponBehaviour(WeaponBehaviour wb){
+		weaponBehaviour = wb;
+	}
+}

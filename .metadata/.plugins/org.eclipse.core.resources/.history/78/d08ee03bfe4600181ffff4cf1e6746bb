@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package character;
+
+import behaviour.KnifeBehaviour;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class Queen extends Character {
+
+	/**
+	 * 
+	 */
+	public Queen() {
+		weaponBehaviour = new KnifeBehaviour();
+	}
+
+	/* (non-Javadoc)
+	 * @see character.Character#Fight()
+	 */
+	@Override
+	public void Fight() {
+		System.out.println("I'am the Queen!!!");
+		weaponBehaviour.useWeapon();
+
+	}
+
+}

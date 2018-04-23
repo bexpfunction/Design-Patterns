@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package main;
+
+import java.awt.List;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class Main {
+
+	private Character king;
+	private Character queen;
+	private List<Character> = new ArrayList<Character>();
+	/**
+	 * App construct
+	 */
+	public Main() {
+		//Create characters
+		
+	}
+
+	/**
+	 * App init point
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Welcome to \"Medieval Fights\"\nThere will be blood!");
+
+	}
+
+}

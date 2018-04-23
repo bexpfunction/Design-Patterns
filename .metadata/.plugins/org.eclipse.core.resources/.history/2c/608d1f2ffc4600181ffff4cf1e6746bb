@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package character;
+
+import behaviour.SwordBehaviour;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class King extends Character {
+
+	/**
+	 * 
+	 */
+	public King() {
+		weaponBehaviour = new SwordBehaviour();
+	}
+
+	/* (non-Javadoc)
+	 * @see character.Character#Fight()
+	 */
+	@Override
+	public void Fight() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

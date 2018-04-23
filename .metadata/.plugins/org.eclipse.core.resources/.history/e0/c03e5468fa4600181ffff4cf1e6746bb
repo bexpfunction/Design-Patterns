@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package main;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class Main {
+
+	/**
+	 * App construct
+	 */
+	public Main() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * App init point
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Welcome to \"Medieval Fights\" ");
+
+	}
+
+}
