@@ -38,4 +38,11 @@
 <fullyQualifiedTypeName name="interfaces.WeatherSubject"/>
 <fullyQualifiedTypeName name="classes.WeatherData"/>
 <fullyQualifiedTypeName name="classes.DisplayHeatIndex"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="main.SwingObserverExample"/>
+<fullyQualifiedTypeName name="java.lang.ExceptionInInitializerError"/>
+<fullyQualifiedTypeName name="javax.swing.WindowConstants"/>
 </qualifiedTypeNameHistroy>
