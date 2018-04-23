@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package main;
+
+import classes.DisplayCurrentConditions;
+import classes.DisplayForecast;
+import classes.DisplayWeatherStats;
+import classes.WeatherData;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class Main {
+	private WeatherData weatherData;
+	private DisplayCurrentConditions currentConditionsDisplay;
+	private DisplayForecast forecastDisplay;
+	private DisplayWeatherStats statsDisplay;
+	/**
+	 * 
+	 */
+	public Main() {
+		this.weatherData = new WeatherData();
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

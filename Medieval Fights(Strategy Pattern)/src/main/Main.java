@@ -55,7 +55,6 @@ public class Main {
 	public static void main(String[] args) {
 		Main app = new Main(100, 150);
 		System.out.println("Welcome to \"Medieval Fights\"\nThere will be blood!");
-
 	}
 
 	/*

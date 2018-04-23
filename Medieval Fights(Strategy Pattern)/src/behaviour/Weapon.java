@@ -17,10 +17,6 @@ public abstract class Weapon implements WeaponBehaviour {
 		// TODO Auto-generated constructor stub
 	}
 
-	/* (non-Javadoc)
-	 * @see behaviour.WeaponBehaviour#useWeapon()
-	 */
-	@Override
-	public abstract void useWeapon();
+	
 
 }

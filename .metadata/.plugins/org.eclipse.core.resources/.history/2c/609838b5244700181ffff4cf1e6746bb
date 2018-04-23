@@ -1,0 +1,102 @@
+/**
+ * 
+ */
+package classes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import interfaces.WeatherSubject;
+import interfaces.WeatherUpdateObserver;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class WeatherData implements WeatherSubject {
+
+	private List<WeatherUpdateObserver> observers;
+	private float temperature;
+	private float humidity;
+	private float pressrure;
+	
+	/**
+	 * 
+	 */
+	public WeatherData() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/* (non-Javadoc)
+	 * @see interfaces.WeatherSubject#registerObserver(interfaces.WeatherUpdateObserver)
+	 */
+	@Override
+	public void registerObserver(WeatherUpdateObserver o) {
+		observers.add(o);
+
+	}
+
+	/* (non-Javadoc)
+	 * @see interfaces.WeatherSubject#unregisterObserver(interfaces.WeatherUpdateObserver)
+	 */
+	@Override
+	public void unregisterObserver(WeatherUpdateObserver o) {
+		int oIndex = observers.indexOf(o);
+		if(oIndex >= 0){
+			observers.remove(oIndex);
+		}
+	}
+
+	/* (non-Javadoc)
+	 * @see interfaces.WeatherSubject#notifyObserver()
+	 */
+	@Override
+	public void notifyObserver() {
+		for (WeatherUpdateObserver weatherUpdateObserver : observers) {
+			weatherUpdateObserver.update(temperature, humidity, pressrure);
+		}
+	}
+
+	/**
+	 * @return the temperature
+	 */
+	public float getTemperature() {
+		return temperature;
+	}
+
+	/**
+	 * @param temperature the temperature to set
+	 */
+	public void setTemperature(float temperature) {
+		this.temperature = temperature;
+	}
+
+	/**
+	 * @return the humidity
+	 */
+	public float getHumidity() {
+		return humidity;
+	}
+
+	/**
+	 * @param humidity the humidity to set
+	 */
+	public void setHumidity(float humidity) {
+		this.humidity = humidity;
+	}
+
+	/**
+	 * @return the pressrure
+	 */
+	public float getPressrure() {
+		return pressrure;
+	}
+
+	/**
+	 * @param pressrure the pressrure to set
+	 */
+	public void setPressrure(float pressrure) {
+		this.pressrure = pressrure;
+	}
+
+}

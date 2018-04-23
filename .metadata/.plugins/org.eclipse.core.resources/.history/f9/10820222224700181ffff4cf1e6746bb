@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package interfaces;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public interface WeatherSubject {
+	public void registerObserver(WeatherUpdateObserver o);
+	public void unregisterObserver();
+	public void notifyObserver();
+}

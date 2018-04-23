@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package main;
+
+import classes.WeatherData;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class Main {
+	private WeatherData weatherData;
+	/**
+	 * 
+	 */
+	public Main() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

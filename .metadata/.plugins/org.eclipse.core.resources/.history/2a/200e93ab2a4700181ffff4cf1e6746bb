@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package main;
+
+import classes.DisplayCurrentConditions;
+import classes.DisplayForecast;
+import classes.WeatherData;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class Main {
+	private WeatherData weatherData;
+	private DisplayCurrentConditions currentConditions;
+	private DisplayForecast forecastDisplay;
+	/**
+	 * 
+	 */
+	public Main() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

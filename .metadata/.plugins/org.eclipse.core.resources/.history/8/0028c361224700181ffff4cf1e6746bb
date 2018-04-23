@@ -1,0 +1,48 @@
+/**
+ * 
+ */
+package classes;
+
+import interfaces.WeatherSubject;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class WeatherData implements WeatherSubject {
+
+	/**
+	 * 
+	 */
+	public WeatherData() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/* (non-Javadoc)
+	 * @see interfaces.WeatherSubject#registerObserver()
+	 */
+	@Override
+	public void registerObserver() {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see interfaces.WeatherSubject#unregisterObserver()
+	 */
+	@Override
+	public void unregisterObserver() {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see interfaces.WeatherSubject#notifyObserver()
+	 */
+	@Override
+	public void notifyObserver() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package interfaces;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class Displayer {
+
+	/**
+	 * 
+	 */
+	public Displayer() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

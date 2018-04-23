@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package classes;
+
+import interfaces.Displayer;
+import interfaces.WeatherSubject;
+import interfaces.WeatherUpdateObserver;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class DisplayCurrentConditions implements Displayer, WeatherUpdateObserver {
+	private float temperature;
+	private float humidity;
+	private WeatherSubject subject;
+	/**
+	 * 
+	 */
+	public DisplayCurrentConditions() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/* (non-Javadoc)
+	 * @see interfaces.WeatherUpdateObserver#update(float, float, float)
+	 */
+	@Override
+	public void update(float temp, float humidity, float pressure) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see interfaces.Displayer#display()
+	 */
+	@Override
+	public void display() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

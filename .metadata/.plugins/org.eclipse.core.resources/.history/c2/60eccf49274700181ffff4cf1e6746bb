@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+package classes;
+
+import interfaces.Displayer;
+import interfaces.WeatherSubject;
+import interfaces.WeatherUpdateObserver;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class DisplayCurrentConditions implements Displayer, WeatherUpdateObserver {
+	private float temperature;
+	private float humidity;
+	private WeatherSubject weatherData;
+	/**
+	 * Create current conditions display and register in WeatherData subject
+	 */
+	public DisplayCurrentConditions(WeatherSubject weatherData) {
+		this.weatherData = weatherData;
+		this.weatherData.registerObserver(this);
+	}
+
+	/* (non-Javadoc)
+	 * Gets updates from observer interface and stores updates in private variables
+	 * @see interfaces.WeatherUpdateObserver#update(float, float, float)
+	 */
+	@Override
+	public void update(float temp, float humidity, float pressure) {
+		this.temperature = temp;
+		this.humidity = humidity;
+	}
+
+	/* (non-Javadoc)
+	 * @see interfaces.Displayer#display()
+	 */
+	@Override
+	public void display() {
+		System.out.println("Current conditions: " + temperature + " C degrees and " + humidity + "% humidity.");
+
+	}
+
+}
