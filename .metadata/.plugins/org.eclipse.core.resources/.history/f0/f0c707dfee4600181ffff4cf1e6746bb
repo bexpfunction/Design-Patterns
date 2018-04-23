@@ -1,0 +1,32 @@
+package duck;
+/**
+ * The Duck superclass
+ * 
+ * @author Burak Yazar
+ *
+ */
+
+import behaviour.FlyBehaviour;
+import behaviour.QuackBehaviour;
+
+public abstract class Duck {
+	FlyBehaviour flyBehaviour;
+	QuackBehaviour quackBehaviour;
+	
+	public Duck(){
+		
+	}
+
+	/*
+	 * All ducks will be displayed eventually but using different properties.
+	 * So every duck object will have to implement Display method themselves.
+	 */
+	public abstract void Display();
+	
+	/*
+	 * All ducks can swim.
+	 */
+	public void Swim(){
+		System.out.println("All ducks swim!");
+	}
+}

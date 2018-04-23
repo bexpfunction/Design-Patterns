@@ -1,0 +1,25 @@
+package main;
+/*
+ * This application implements The Duck Problem
+ * 
+ * @author Burak Yazar
+ */
+public class Main {
+	/*
+	 * Creates main application object
+	 */
+	public Main(){
+		
+	}
+	
+	/*
+	 * Application init point
+	 */
+	public static void main(String[] args){
+		/*
+		 * Temp mallord duck
+		 */
+		
+		System.out.println("Hello patterns...");
+	}
+}

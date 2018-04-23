@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package behaviour;
+
+/**
+ * Quacking
+ * @author Burak Yazar
+ *
+ */
+public class Quack implements QuackBehaviour {
+
+	/* Quack be
+	 * @see behaviour.QuackBehaviour#Quack()
+	 */
+	@Override
+	public void Quack() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

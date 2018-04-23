@@ -1,0 +1,11 @@
+package duck;
+
+public abstract class Duck {
+	public Duck(){
+		
+	}
+	
+	public abstract void Display();
+	
+	
+}

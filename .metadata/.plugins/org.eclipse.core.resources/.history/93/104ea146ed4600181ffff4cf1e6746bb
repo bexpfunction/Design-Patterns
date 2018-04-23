@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package behaviour;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class FlyWithWings implements FlyBehaviour {
+
+}

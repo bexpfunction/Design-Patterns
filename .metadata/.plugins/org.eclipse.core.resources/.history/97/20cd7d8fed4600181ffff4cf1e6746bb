@@ -1,0 +1,15 @@
+package behaviour;
+
+public class FlyNoWay implements FlyBehaviour {
+
+	/*
+	 * (non-Javadoc)
+	 * @see behaviour.FlyBehaviour#fly()
+	 */
+	@Override
+	public void fly() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

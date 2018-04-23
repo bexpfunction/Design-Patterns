@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package behaviour;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class MuteQuack implements QuackBehaviour {
+
+	/* (non-Javadoc)
+	 * @see behaviour.QuackBehaviour#Quack()
+	 */
+	@Override
+	public void Quack() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package duck;
+
+import behaviour.MuteQuack;
+import behaviour.Squeak;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class RubberDuck extends Duck {
+
+	public RubberDuck(){
+		quackBehaviour = new Squeak();
+	}
+	/* (non-Javadoc)
+	 * @see duck.Duck#Display()
+	 */
+	@Override
+	public void Display() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

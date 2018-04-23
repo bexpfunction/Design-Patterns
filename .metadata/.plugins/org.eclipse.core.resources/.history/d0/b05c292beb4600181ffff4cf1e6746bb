@@ -1,0 +1,15 @@
+package main;
+/*
+ * This application implements The Duck Problem
+ * 
+ * @author Burak Yazar
+ */
+public class Main {
+	public Main(){
+		
+	}
+	
+	public static void main(String[] args){
+		System.out.println("Hello patterns...");
+	}
+}

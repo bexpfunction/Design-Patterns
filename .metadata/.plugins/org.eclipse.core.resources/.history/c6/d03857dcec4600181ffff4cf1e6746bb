@@ -1,0 +1,19 @@
+package duck;
+
+public abstract class Duck {
+	public Duck(){
+		
+	}
+	
+	/*
+	 * All ducks will be displayed eventually but using different properties
+	 */
+	public abstract void Display();
+	
+	/*
+	 * All ducks can swim
+	 */
+	public void Swim(){
+		System.out.println("All ducks swim!");
+	}
+}

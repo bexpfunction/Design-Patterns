@@ -1,0 +1,14 @@
+package duck;
+
+public abstract class Duck {
+	public Duck(){
+		
+	}
+	
+	public abstract void Display();
+	
+	
+	public void Swim(){
+		System.out.println("All ducks swim!");
+	}
+}

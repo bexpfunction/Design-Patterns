@@ -1,0 +1,8 @@
+package behaviour;
+
+public interface FlyBehaviour {
+	/*
+	 * Flying behaviour for ducks
+	 */
+	public void fly();
+}

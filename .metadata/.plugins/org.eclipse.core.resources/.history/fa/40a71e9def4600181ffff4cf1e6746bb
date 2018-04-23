@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package duck;
+
+import behaviour.Quack;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class MallardDuck extends Duck {
+
+	public MallardDuck(){
+		quackBehaviour = new Quack();
+	}
+	
+	/* (non-Javadoc)
+	 * @see duck.Duck#Display()
+	 */
+	@Override
+	public void Display() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
