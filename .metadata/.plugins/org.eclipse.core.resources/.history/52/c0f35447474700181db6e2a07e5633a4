@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package main;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class SwingObserverExample {
+	JFrame frame;
+	/**
+	 * 
+	 */
+	public SwingObserverExample() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void go() {
+		frame = new JFrame("Observe This!!!");
+		JButton button = new JButton("Should I Do It?");
+	}
+	
+}
