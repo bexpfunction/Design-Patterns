@@ -12,6 +12,11 @@ import character.Knight;
 import character.Queen;
 import character.Troll;
 
+import java.io.BufferedWriter;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 import java.util.ArrayList;
 
 /**
@@ -33,13 +38,14 @@ public class Main {
 		queen = new Queen("Jaenille", 100.0f, 300.0f);
 		Random rnd = new Random();
 		for(int i=0; i<maxKnigts; i++){
-			Character tmpKnight = new Knight("Knight-"+i, 100.0f, (float)(rnd.nextInt(450)+350));
+			Character tmpKnight = new Knight("Knight-"+i, 100.0f, (float)(rnd.nextInt(100)+350));
 			knights.add(tmpKnight);
 		}
 		for(int i=0; i<maxTrolls; i++){
-			Character tmpTroll = new Troll("Troll-"+i, 200.0f, (float)(rnd.nextInt(250)+150));
+			Character tmpTroll = new Troll("Troll-"+i, 200.0f, (float)(rnd.nextInt(100)+150));
 			trolls.add(tmpTroll);
 		}
+		PrintCharacters("CharacterList", knights, trolls);
 	}
 
 	/**
@@ -52,4 +58,24 @@ public class Main {
 
 	}
 
+	/*
+	 * Print out characters
+	 */
+	public void PrintCharacters(String fileName, List<Character> char1, List<Character> char2){
+		try (Writer writer = new BufferedWriter(new OutputStreamWriter(
+	              new FileOutputStream(fileName+".txt"), "utf-8"))){
+			writer.write(king.getName() + " | Health: " + king.getHealth() + " | Strength: " + king.getStrength() + "\n");
+			writer.write(queen.getName() + " | Health: " + queen.getHealth() + " | Strength: " + queen.getStrength() + "\n");
+			
+			for (Character character : char1) {
+				writer.write(character.getName() + " | Health: " + character.getHealth() + " | Strength: " + character.getStrength() + "\n");
+			}
+			for (Character character : char2) {
+				writer.write(character.getName() + " | Health: " + character.getHealth() + " | Strength: " + character.getStrength() + "\n");
+			}
+		} catch(IOException e){
+			System.out.println("Error writing to file... " + e);
+			System.exit(-1);
+		}
+	}
 }

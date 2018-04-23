@@ -11,9 +11,9 @@ import behaviour.WeaponBehaviour;
  */
 public abstract class Character {
 
-	String name;
-	float health;
-	float strength;
+	private String name;
+	private float health;
+	private float strength;
 	WeaponBehaviour weaponBehaviour;
 	
 	/**
@@ -35,5 +35,26 @@ public abstract class Character {
 	 */
 	public void SetWeaponBehaviour(WeaponBehaviour wb){
 		weaponBehaviour = wb;
+	}
+
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/**
+	 * @return the health
+	 */
+	public float getHealth() {
+		return health;
+	}
+
+	/**
+	 * @return the strength
+	 */
+	public float getStrength() {
+		return strength;
 	}
 }
