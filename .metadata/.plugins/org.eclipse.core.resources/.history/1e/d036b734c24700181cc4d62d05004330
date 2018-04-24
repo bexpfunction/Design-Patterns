@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package vehicle;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public abstract class Vehicle {
+
+}

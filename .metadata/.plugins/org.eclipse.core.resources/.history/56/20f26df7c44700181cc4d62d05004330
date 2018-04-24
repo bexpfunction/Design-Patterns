@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package vehicle;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public abstract class Vehicle {
+	String name = "NoName";
+	public abstract String getName();
+	public abstract int getCost();
+}

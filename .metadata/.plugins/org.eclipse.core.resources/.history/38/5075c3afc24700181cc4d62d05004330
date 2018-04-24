@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package vehicle;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class GPSComponent extends CarComponent {
+
+	/**
+	 * @param name
+	 */
+	public GPSComponent(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+
+}

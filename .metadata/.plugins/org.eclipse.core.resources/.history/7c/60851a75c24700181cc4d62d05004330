@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+package vehicle;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class Car extends Vehicle {
+
+	private String name;
+	private int cost;
+	/**
+	 * 
+	 */
+	public Car(String name, int cost) {
+		this.name = name;
+		this.cost = cost;
+	}
+
+	/* (non-Javadoc)
+	 * @see vehicle.Vehicle#getName()
+	 */
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return name;
+	}
+
+	/* (non-Javadoc)
+	 * @see vehicle.Vehicle#getCost()
+	 */
+	@Override
+	public int getCost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

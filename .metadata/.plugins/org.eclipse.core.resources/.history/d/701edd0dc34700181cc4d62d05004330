@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package vehicle;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class GPSComponent extends CarComponent {
+
+	Vehicle vehicle
+	/**
+	 * 
+	 */
+	public GPSComponent() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/* (non-Javadoc)
+	 * @see vehicle.CarComponent#getName()
+	 */
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see vehicle.Vehicle#getCost()
+	 */
+	@Override
+	public int getCost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

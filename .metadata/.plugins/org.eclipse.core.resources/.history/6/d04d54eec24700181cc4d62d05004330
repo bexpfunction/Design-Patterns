@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package vehicle;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public abstract class CarComponent extends Vehicle {
+	/**
+	 * 
+	 */
+
+	/* (non-Javadoc)
+	 * @see vehicle.Vehicle#getName()
+	 */
+	@Override
+	public abstract String getName();
+
+}

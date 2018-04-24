@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package vehicle;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public abstract class CarComponentDecorator extends Vehicle {
+
+	/* (non-Javadoc)
+	 * @see vehicle.Vehicle#getCost()
+	 */
+	@Override
+	public int getCost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

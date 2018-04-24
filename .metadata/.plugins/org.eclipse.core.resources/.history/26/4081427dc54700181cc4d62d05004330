@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package vehicle;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class Car extends Vehicle {
+
+	/**
+	 * 
+	 */
+	public Car() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/* (non-Javadoc)
+	 * @see vehicle.Vehicle#getCost()
+	 */
+	@Override
+	public int getCost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
