@@ -49,5 +49,13 @@
 <fullyQualifiedTypeName name="vehicle.GPSComponent"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="pizza.pizzaTypes"/>
 <fullyQualifiedTypeName name="pizza.Pizza"/>
+<fullyQualifiedTypeName name="pizza.NYDoubleCheesePizza"/>
+<fullyQualifiedTypeName name="pizza.NYPepperoniPizza"/>
+<fullyQualifiedTypeName name="pizza.ChicagoFullMeatPizza"/>
+<fullyQualifiedTypeName name="pizza.ChicagoSpicyPizza"/>
+<fullyQualifiedTypeName name="store.PizzaStore"/>
+<fullyQualifiedTypeName name="store.ChicagoPizzaStore"/>
+<fullyQualifiedTypeName name="store.NYPizzaStore"/>
 </qualifiedTypeNameHistroy>
