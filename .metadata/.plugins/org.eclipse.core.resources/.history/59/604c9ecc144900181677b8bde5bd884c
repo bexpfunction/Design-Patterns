@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package store;
+
+import pizza.Pizza;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public abstract class PizzaStore {
+	public abstract Pizza orderPizza();
+	public abstract Pizza createPizza();
+}

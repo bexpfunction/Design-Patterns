@@ -1,0 +1,42 @@
+/**
+ * 
+ */
+package store;
+
+import pizza.Pizza;
+import pizza.pizzaTypes;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class NYPizzaStore extends PizzaStore {
+
+	/**
+	 * 
+	 */
+	public NYPizzaStore() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/* (non-Javadoc)
+	 * @see store.PizzaStore#orderPizza(pizza.pizzaTypes)
+	 */
+	@Override
+	public Pizza orderPizza(pizzaTypes type) {
+		switch(type){
+		
+		}
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see store.PizzaStore#createPizza()
+	 */
+	@Override
+	public Pizza createPizza() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

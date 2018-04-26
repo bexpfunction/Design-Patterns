@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package pizza;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class NYPepperoniPizza extends Pizza {
+
+	/**
+	 * 
+	 */
+	public NYPepperoniPizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

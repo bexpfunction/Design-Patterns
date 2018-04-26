@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package pizza;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class ChicagoFullMeatPizza extends Pizza {
+
+	/**
+	 * 
+	 */
+	public ChicagoFullMeatPizza() {
+		name = "Chicago Full Meat";
+		doughType = "Thick";
+		toppings.add("Cheddar");
+		toppings.add("Mosarella");
+	}
+
+}

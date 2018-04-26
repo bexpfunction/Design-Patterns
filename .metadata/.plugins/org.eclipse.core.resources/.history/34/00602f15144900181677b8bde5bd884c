@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package pizza;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class ChicagoFullMeatPizza extends Pizza {
+
+	/**
+	 * 
+	 */
+	public ChicagoFullMeatPizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

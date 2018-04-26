@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package pizza;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class NYDoubleCheesePizza extends Pizza {
+
+	/**
+	 * 
+	 */
+	public NYDoubleCheesePizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

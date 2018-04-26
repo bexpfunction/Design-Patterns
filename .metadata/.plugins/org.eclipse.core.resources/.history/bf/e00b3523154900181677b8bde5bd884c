@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package store;
+
+import pizza.Pizza;
+import pizza.pizzaTypes;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public abstract class PizzaStore {
+	public abstract Pizza orderPizza(pizzaTypes type);
+	public abstract Pizza createPizza();
+}

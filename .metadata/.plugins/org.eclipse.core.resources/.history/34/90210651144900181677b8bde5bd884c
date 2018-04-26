@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package pizza;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class ChicagoSpicyPizza extends Pizza {
+
+	/**
+	 * 
+	 */
+	public ChicagoSpicyPizza() {
+		name = "Chicago Spices";
+		doughType = "Thick";
+		toppings.add("Cheddar");
+		toppings.add("Mosarella");
+	}
+
+}

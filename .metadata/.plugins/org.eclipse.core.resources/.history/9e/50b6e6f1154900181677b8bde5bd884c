@@ -1,0 +1,47 @@
+/**
+ * 
+ */
+package store;
+
+import pizza.NYDoubleCheesePizza;
+import pizza.NYPepperoniPizza;
+import pizza.Pizza;
+import pizza.pizzaTypes;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class NYPizzaStore extends PizzaStore {
+
+	/**
+	 * 
+	 */
+	public NYPizzaStore() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/* (non-Javadoc)
+	 * @see store.PizzaStore#orderPizza(pizza.pizzaTypes)
+	 */
+	@Override
+	public Pizza orderPizza(pizzaTypes type) {
+		return createPizza(type);
+	}
+
+	/* (non-Javadoc)
+	 * @see store.PizzaStore#createPizza(pizza.pizzaTypes)
+	 */
+	@Override
+	public Pizza createPizza(pizzaTypes type) {
+		switch (type) {
+		case NYDoubleCheese:
+			
+		case NYPepperoni:
+			return new NYPepperoniPizza();
+		default:
+			return new NYDoubleCheesePizza();
+		}
+	}
+
+}

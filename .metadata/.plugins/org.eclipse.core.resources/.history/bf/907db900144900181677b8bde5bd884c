@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package pizza;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class NYPepperoniPizza extends Pizza {
+
+	/**
+	 * 
+	 */
+	public NYPepperoniPizza() {
+		name = "New York Double";
+		doughType = "Thick";
+		toppings.add("Pepperoni");
+		toppings.add("Mosarella");
+	}
+
+}

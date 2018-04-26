@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package pizza;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class NYDoubleCheesePizza extends Pizza {
+
+	/**
+	 * 
+	 */
+	public NYDoubleCheesePizza() {
+		name = "New York Double";
+		doughType = "Thick";
+		toppings.add("")
+	}
+
+}

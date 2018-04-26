@@ -3,7 +3,10 @@
  */
 package store;
 
+import pizza.NYDoubleCheesePizza;
+import pizza.NYPepperoniPizza;
 import pizza.Pizza;
+import pizza.pizzaTypes;
 
 /**
  * @author Burak Yazar
@@ -19,21 +22,18 @@ public class NYPizzaStore extends PizzaStore {
 	}
 
 	/* (non-Javadoc)
-	 * @see store.PizzaStore#orderPizza()
+	 * @see store.PizzaStore#createPizza(pizza.pizzaTypes)
 	 */
 	@Override
-	public void orderPizza() {
-		// TODO Auto-generated method stub
-
-	}
-
-	/* (non-Javadoc)
-	 * @see store.PizzaStore#createPizza()
-	 */
-	@Override
-	public Pizza createPizza() {
-		// TODO Auto-generated method stub
-		return null;
+	protected Pizza createPizza(pizzaTypes type) {
+		switch (type) {
+		case NYDoubleCheese:
+			return new NYDoubleCheesePizza();
+		case NYPepperoni:
+			return new NYPepperoniPizza();
+		default:
+			return new NYDoubleCheesePizza();
+		}
 	}
 
 }

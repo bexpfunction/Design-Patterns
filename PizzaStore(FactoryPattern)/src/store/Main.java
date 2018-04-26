@@ -3,6 +3,8 @@
  */
 package store;
 
+import pizza.pizzaTypes;
+
 /**
  * @author Burak Yazar
  *
@@ -20,7 +22,11 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		PizzaStore chicago = new ChicagoPizzaStore();
+		PizzaStore newYork = new NYPizzaStore();
+		
+		chicago.orderPizza(pizzaTypes.ChicagoFullMeat);
+		newYork.orderPizza(pizzaTypes.NYPepperoni);
 
 	}
 
