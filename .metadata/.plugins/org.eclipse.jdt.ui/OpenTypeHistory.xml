@@ -10,4 +10,8 @@
 <typeInfo handle="=WeatherTrackApp\(Observer Pattern)/C:\/Program Files\/Java\/jre1.8.0_121\/lib\/rt.jar&lt;org.omg.PortableInterceptor(DISCARDING.class[DISCARDING" modifiers="1537" timestamp="1490111771562"/>
 <typeInfo handle="=WeatherTrackApp\(Observer Pattern)/src&lt;interfaces{Displayer.java[Displayer" modifiers="513" timestamp="1524506754652"/>
 <typeInfo handle="=WeatherTrackApp\(Observer Pattern)/src&lt;interfaces{WeatherUpdateObserver.java[WeatherUpdateObserver" modifiers="513" timestamp="1524507408132"/>
+<typeInfo handle="=Car Dealer\(Decorator Pattern)/src&lt;vehicle{Vehicle.java[Vehicle" modifiers="1025" timestamp="1524577263790"/>
+<typeInfo handle="=Car Dealer\(Decorator Pattern)/src&lt;vehicle{CarComponentDecorator.java[CarComponentDecorator" modifiers="1025" timestamp="1524577355805"/>
+<typeInfo handle="=PizzaStore\(FactoryPattern)/src&lt;pizza{Pizza.java[Pizza" modifiers="1025" timestamp="1524700581535"/>
+<typeInfo handle="=PizzaStore\(FactoryPattern)/src&lt;store{PizzaStore.java[PizzaStore" modifiers="1025" timestamp="1524700949526"/>
 </typeInfoHistroy>

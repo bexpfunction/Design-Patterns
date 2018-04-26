@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package pizza;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public abstract class Pizza {
+	String name;
+	
+}

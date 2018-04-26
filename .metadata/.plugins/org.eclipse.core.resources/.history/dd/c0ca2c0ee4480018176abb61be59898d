@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package pizza;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public abstract class Pizza {
+	String name;
+	
+	void prepare(){
+		
+	}
+	
+	void bake(){
+		
+	}
+	
+	void serve(){
+		
+	}
+	
+	String getName() { return this.name; }
+}

@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package pizza;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class ChicagoStylePizza extends Pizza {
+
+	/**
+	 * 
+	 */
+	public ChicagoStylePizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

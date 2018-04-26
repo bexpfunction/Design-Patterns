@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package pizza;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public class ChicagoStylePizza extends Pizza {
+
+	/**
+	 * 
+	 */
+	public ChicagoStylePizza() {
+		name = "New York Style";
+		doughType = "Thin";
+		toppings.add("Gravy Cheese");
+	}
+
+}

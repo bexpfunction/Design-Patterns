@@ -33,8 +33,6 @@
 <fullyQualifiedTypeName name="main.Main"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="interfaces.WeatherSubject"/>
 <fullyQualifiedTypeName name="classes.WeatherData"/>
 <fullyQualifiedTypeName name="classes.DisplayHeatIndex"/>
@@ -45,4 +43,11 @@
 <fullyQualifiedTypeName name="main.SwingObserverExample"/>
 <fullyQualifiedTypeName name="java.lang.ExceptionInInitializerError"/>
 <fullyQualifiedTypeName name="javax.swing.WindowConstants"/>
+<fullyQualifiedTypeName name="vehicle.Car"/>
+<fullyQualifiedTypeName name="vehicle.Vehicle"/>
+<fullyQualifiedTypeName name="vehicle.ABSComponent"/>
+<fullyQualifiedTypeName name="vehicle.GPSComponent"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="pizza.Pizza"/>
 </qualifiedTypeNameHistroy>

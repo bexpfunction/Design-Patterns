@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package store;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public abstract class PizzaStore {
+
+
+	public PizzaStore() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

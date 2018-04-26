@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package pizza;
+
+/**
+ * @author Burak Yazar
+ *
+ */
+public abstract class Pizza {
+	String name;
+	String doughType = "Standart";
+	List<String> toppings;
+	
+	void prepare(){
+		System.out.println("Tossing the" + doughType + "...");
+		System.out.println("Adding souces...");
+		System.out.println("Adding ingredients...");
+	}
+	
+	void bake(){
+		System.out.println("Pushing into the oven...");
+		System.out.println("Waiting...");
+		System.out.println("Baked!");
+	}
+	
+	void serve(){
+		System.out.println("Slicing ");
+	}
+	
+	String getName() { return this.name; }
+}
